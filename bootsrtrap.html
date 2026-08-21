@@ -1,8 +1,6 @@
 <!DOCTYPE HTMl>
 <html lang="es">
 
-</html>
-
 <head>
     <meta charset="utf-8">
     <title>Bootsrtrap - Demostracion de estilos</title>
@@ -12,19 +10,63 @@
 
 <body>
     <header>
-        <nav>
-            <ol>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="normal.html">CSS puro</a></li>
-                <li><a href="bootsrtrap.html">Bootsrtrap</a></li>
-                <li><a href="materialize.html">Materialize</a></li>
-            </ol>
-        </nav>
+         <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="index.html"><strong>WEB DE PRUEBA</strong></a>
+
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="normal.html">CSS puro</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="bootsrtrap.html">Bootstrap</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="materialize.html">Materialize</a>
+                    </li>
+
+                </ul>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2"
+                        type="search"
+                        placeholder="Buscar">
+
+                    <button class="btn btn-outline-success" type="submit">
+                        Buscar
+                    </button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+
+</header>
     </header>
     <main>
-        <h1>Demostración de estilos: Bootsrtrap</h1>
-        <p>Perrito Chop</p>
-        <img src="https://i.pinimg.com/474x/42/ac/2d/42ac2dbc88f391c62c303c3a9ee2a71c.jpg" alt="Perrito Lindo">
+        <h1><strong>Demostración de estilos: Bootsrtrap</strong></h1>
+        <p>Perrito del gym mucho más fuerte</p>
+        <img src="https://i.pinimg.com/736x/8e/4e/35/8e4e35899db004db6ecf42b7ae999c72.jpg" alt="Perro Gym">
         <div class="accordion" id="accordionExample">
             <div class="accordion-item">
                 <h2 class="accordion-header">
@@ -87,7 +129,8 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+    </script>
 </body>
 
 </HTMl>
